@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ScrollingApp</string>
+    <string name="article_title">Morning Colors</string>
+    <string name="article_sub_title">Colors Narration 20160923
+</string>
+    <string name="article_text">\t On September 25, 1942, Marine Corps Base Camp Pendleton became the largest west coast military camp after five months of construction. On the eve of World War II, the Marine training bases were limited to Quantico, VA, Paris Island, SC and right here in San  Diego, CA. When expansion of all U.S armed forces was authorized by President Franklin D. Roosevelt\'s proclamation of an unlimited national emergency, an immediate need for additional amphibious force training facilities led to the construction of Camp Pendleton. President Roosevelt dedicated the base on September 25, 1942, in honor of World War I Major General Joseph H. Pendleton who had long advocated the establishment of a west coast training base. In honor of all the Marines who served in the First Marine Division past and present, Marine Band San Diego is proud to perform the official march of the First Marine Division, \"Waltzing Matilda\".
+\n\n \t National Hispanic Heritage Month is the period from September 15 to October 15 in the United States when people recognize the contributions of Hispanic and Latino Americans to the United States and celebrate the group\'s heritage and culture. September 15th was chosen as the starting point for the celebration because it marked the anniversary for independence for 5 Latin American Countries: Costa Rica, El Salvador, Guatemala, Honduras and Nicaragua. It is only fitting that we honor Marines of hispanic descent as many have sacrificed their lives for our country. In honor of all the Hispanic Marines who have served past and present, Marine Band San Diego is proud to perform, Zacatecas. \n \n For more information about the Marine Corps please visit www.marines.com
+</string>
+    <string name="add_comment">Add Comment</string>
+</resources>
