@@ -19,7 +19,7 @@ import java.net.URL;
 /**
  * Created by cscharff.
  */
-
+//url:"https://user-images.githubusercontent.com/60992141/123027463-e3d22300-d3ab-11eb-8960-63df3c19ba5f.jpg"
 public class ImageDownloader extends AsyncTask<String, Integer, Bitmap> {
 
 
