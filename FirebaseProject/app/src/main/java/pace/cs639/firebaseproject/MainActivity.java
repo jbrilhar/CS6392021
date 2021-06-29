@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 Employee employ;
             int counter = 0;
-            String tv_string="";
+            String tv_string="Employees: \n";
             for (DataSnapshot ds: dataSnapshot.getChildren()){
                 employ = (Employee)ds.getValue(Employee.class);
                 Log.i("MAINACTIVITY", counter + " - First Name: " + employ.getFirstName()+ " Last Name: " + employ.getLastName());
