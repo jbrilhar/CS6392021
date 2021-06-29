@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FirebaseProject</string>
+    <string name="firstName"></string>
+    <string name="lastName" />
+    <string name="last_name">Last Name</string>
+    <string name="hint_Last">Last Name</string>
+    <string name="hint_First">First Name</string>
+    <string name="database">DataBase</string>
+</resources>
