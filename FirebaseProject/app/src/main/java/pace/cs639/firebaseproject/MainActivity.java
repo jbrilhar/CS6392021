@@ -2,11 +2,13 @@ package pace.cs639.firebaseproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -66,7 +68,18 @@ public class MainActivity extends AppCompatActivity {
         myRef = database.getReference("employees");
         String firstName = mEditTextFirst.getText().toString();
         String lastName = mEditTextLast.getText().toString();
-        Employee emp = new Employee(lastName, firstName);
-        myRef.push().setValue(emp);
+        if (firstName.length() > 0 && lastName.length() > 0) {
+            Employee emp = new Employee(lastName, firstName);
+            myRef.push().setValue(emp);
+        }
+        else {
+            Context context = getApplicationContext();
+            CharSequence text = "You must enter both a First Name and Last Name";
+            int duration = Toast.LENGTH_SHORT;
+
+            Toast toast = Toast.makeText(context, text, duration);
+            toast.show();
+        }
+
     }
 }
