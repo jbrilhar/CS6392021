@@ -1,0 +1,13 @@
+Late work and communication issues: None
+Code available in GitHub: Yes
+Apk available at the root: Yes
+Screenshots available at the root: Yes
+The app crashes: No
+Min SDK: 21
+Target SDK: 30
+App tested: Yes
+The app display the initial content of Firebase (may have more employees): Yes
+The app adds an employee and display the new list: Yes
+If one of the field is empty, the app does not send the data to the database: Yes
+Quality of the UI and UX of the app: Yes
+General comments about the app: Very good job
