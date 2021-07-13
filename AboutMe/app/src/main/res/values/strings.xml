@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="name">John Brilhart</string>
+    <string name="yellow_star">Yellow star</string>
+    <string name="bio">Hi, my name is John.
+\n\nI love music.
+\n\nRock music, classical music, all types of music!
+\nFun fact I use to play music for the Marine Corps.
+\n\nI can play French Horn, Trumpet, and Piano.
+\nMusic is a great hobby, its never too late to start!
+\n\n</string>
+    <string name="what_is_you_nickname">What is you nickname?</string>
+    <string name ="done">Done</string>
+</resources>
